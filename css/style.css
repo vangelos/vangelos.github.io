@@ -1,0 +1,45 @@
+@import url(reset.css);
+
+.mainWrapper{
+    width: 876px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #e6e6e6;
+    border-radius: 3px;
+}
+
+h1{
+    padding: 0 0 20px 0;
+    text-align: center;
+    font: bold 26px 'PT Sans', sans-serif;
+}
+
+.ourWork{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#loadingDiv{
+    display: none;
+    text-align: center;
+    font: bold 18px 'PT Sans', sans-serif;
+}
+
+#moreButton {
+    padding: 15px 30px;
+    background: #e6e6e6;
+    border-radius: 3px;
+    margin: 0 auto;
+    box-shadow: 0px 2px 5px #C3C3C3;
+    cursor: pointer;
+}
+
+
+#moreButton span{
+    display: block;
+    font: bold 18px 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+
+

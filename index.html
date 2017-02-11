@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Ленивая загрузка | smartlanding.biz</title>
+<meta name="description" content=""/>
+<meta name="Keywords" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/style.css" type="text/css" rel="stylesheet"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+</head>
+<body>
+    <div class="mainWrapper">
+        <h1>Портфолио</h1>
+            <div id="smartPortfolio">
+                <div class="ourWork">
+                    <img src="./img/ico1.png" alt="первый набор иконок">
+                </div>
+                <div class="ourWork">
+                    <img src="./img/ico2.png" alt="второй набор иконок">
+                </div>
+            </div>
+            <div id="moreButton" onclick="lazyload.load()">
+                <span>Показать еще...</span>
+            </div>
+            <div id="loadingDiv">
+                <span>Загрузка данных</span>
+            </div>
+    </div>
+<script type="text/javascript" src="./js/lazyload.js"></script>
+</body>
+</html>
